@@ -1,0 +1,119 @@
+
+
+@media screen and (min-width:705px){
+   .brands {
+      height: 3rem;
+   }
+   .brands img {
+      margin-top: .3rem;
+      height: 8rem;
+   }
+
+   /*SALE*/
+   .sale {
+      display: flex;
+      object-fit: contain;
+      flex: 1;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-direction: row;
+   }
+   .sale_text {
+      flex-shrink: 1;
+      text-align: left;
+   }
+   .sale_text-big {
+      width: 18.2rem;
+      height: 5.5rem;
+      margin-top: 3rem;
+      margin-left: -4.5rem;
+      font-size: 4rem;
+      padding: 0.4rem;
+      text-align: left;
+   }
+   .sale_text-big-02 {
+      margin-top: -.5rem;
+      font-size: 4rem;
+      margin-left: -1.2rem;
+   }
+   .sale_text-small{
+      margin-top: -.8rem;
+      font-size: 1.25rem;
+      margin-left: 1rem;
+   }
+   .sale_text-small-02 {
+      margin-top: .7rem;
+      font-size: 1.25rem;
+      margin-left: -9rem;
+   }
+   .sale_text-small-03 {
+      font-size: 1.25rem;
+      margin-left: -5.5rem;
+   }
+   .cta-button {
+      width: 10rem;
+      text-align: center;
+      margin-top: -.5rem;
+      margin-left: -12.2rem;
+      padding-right: .9rem;
+      text-transform: uppercase;
+   }
+   .sale_img {
+      object-fit: cover;
+      display: flex;
+      margin-left: 7rem;
+      height: 32rem;
+      flex-shrink: 1;
+      margin-top: 1rem;
+      margin-left: -0.5rem;
+   }
+   .sale_img img {
+      margin-top: 1rem;
+      height: 31rem;
+   }
+   /*SALE*/
+
+   /*YOUNG*/
+   .young {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      overflow-x: hidden;
+   }
+   .young img {
+      height: 14rem;
+   }
+   /*YOUNG*/
+
+   /*JOIN*/
+   .join {
+      height: 18rem;
+   }
+   .join_button {
+      width: 60%;
+      margin: auto;
+   }
+   .cta-button-02 {
+      margin-left: -4rem;
+      width: 6rem;
+   }
+   /*JOIN*/
+
+   /*FOOTER*/
+   footer {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly
+   }
+   .links {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 4rem;
+   }
+   .links_list {
+      font-size: 1rem;
+   }
+   /*FOOTER*/
+   
+}
